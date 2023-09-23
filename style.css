@@ -162,3 +162,67 @@ footer {
     font-size: 25px;
     padding: 0 16px;
 }
+
+@media (max-width:728px) {
+    .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .home__description {
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+    .subheader {
+        text-align: center;
+        font-size: 28px;
+    }
+    .home__description--button {
+        width:100%;
+        max-width: 240px
+    }
+    ul {
+        display: none;
+    }
+    .section__description {
+        flex-direction: column;
+        aic
+    }
+    .section__description--wrapper {
+        width: 100% ;
+        margin: 0px
+    }
+    .about__img--wrapper {
+        width: 100%
+    }
+    #discord .section__description {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #discord .discord__img--wrapper{
+        width:100%;
+    }
+    form {
+        width:100%;
+    max-width: 80%
+    }
+    .footer__logo {
+max-width: 80%;
+    }
+    .footer__link {
+        padding: 0 4px;
+        font-size: 18px;
+    }
+    .footer__links {
+        margin-bottom: 10px
+    }
+.footer__copyright {
+    margin: 20px 0 30px 0
+}
+}
